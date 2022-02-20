@@ -1,0 +1,66 @@
+p{
+    color: orange;
+}
+
+h3{
+    color:blue;
+}
+
+
+a{
+    background-color: chartreuse;
+}
+
+#parrafo3{
+    color: green;
+}
+
+.parrafoGris{
+    color: gray;
+}
+
+.parrafoNegro{
+    color: black;
+}
+
+.fondoRojo{
+    background-color: red;
+}
+
+.fondoAmarillo{
+    background: yellow;
+}
+
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: narrower;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagenPequena{
+    height: 100px;
+}
+
+.contenedorConMargen{
+    margin-top: 10px;
+    margin-left: 30px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.contenedorDivs{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns:150px 150px 150px ;
+}
+
+.divTest{
+    border:1px solid green;
+}
+
+.contenedorDivsFlex{
+    border:2px solid green;
+    display: flex;
+}

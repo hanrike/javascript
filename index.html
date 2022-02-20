@@ -4,6 +4,7 @@
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link href="./styles/estilos.css" rel="stylesheet" />
         <title>Hola este es el titulo</title>
         <description>Esta es la description</description>
     </head>
@@ -11,8 +12,8 @@
         <header>
             <h3>Esto es una lista ordenada</h3>
             <ol>
-                <li>Elemento 1</li>
-                <li>Elemento 2</li>
+                <li class="textoGris fondoRojo textoGrandeNegrita">Elemento 1</li>
+                <li class="textoAzul fondoAmarillo">Elemento 2</li>
                 <li>Elemento 3</li>
             </ol>
             <ul>
@@ -37,15 +38,36 @@
                     <p>
                         Esto es un parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquid, atque mollitia non quia quod, dolores ut tempora minus itaque suscipit doloremque! Id quam recusandae eos. Qui, nam! Quo, incidunt.
                     </p>
-                    <p>
+                    <p id="parrafo3">
                         Esto es otro parrafo Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquid, atque mollitia non quia quod, dolores ut tempora minus itaque suscipit doloremque! Id quam recusandae eos. Qui, nam! Quo, incidunt.
+                    </p>
+                    <p class="parrafoGris">
+                        Esto es un parrafo gris
+                    </p>
+                    <p class="parrafoNegro">
+                        Esto es un parrafo negro
                     </p>
                     <span>Este es un texto corto</span>
                 </article>
                 
-                <img src="media/tigres800x400.jpg" alt='Foto de unos tigres'/>
+                <img class="imagenPequena" src="media/tigres800x400.jpg" alt='Foto de unos tigres'/>
             </section>
-            <section>Tabla con la info</section>
+            <section>
+                <div class="contenedorConMargen">
+                    <div>Div1</div>
+                    <div>Div2</div>
+                    <div>Div3</div>
+                </div>
+                <div class="contenedorDivsFlex">
+                    <div class="divTest">Div1</div>
+                    <div class="divTest">Div2</div>
+                    <div class="divTest">Div3</div>
+                    <div class="divTest">Div4</div>
+                    <div class="divTest">Div5</div>
+                    <div class="divTest">Div6</div>
+                    <div class="divTest">Div7</div>
+                </div>
+            </section>
             <section>seccion 3</section>
         </main>
         <footer>
