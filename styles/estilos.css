@@ -12,13 +12,21 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(237, 237, 238);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+
+.navbar>li{
+    display: flex;
+    align-items: center;
 }
 
 .logo{
     height: 70px;
 }
 
-.button{
+.botonGenerico{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
@@ -26,7 +34,7 @@ ul{
     box-shadow: 1px 1px green;
 }
 
-.button:hover{
+.botonGenerico:hover{
     cursor: pointer;
     transform:scale(1.1);
 }
@@ -43,11 +51,19 @@ ul{
     
 }
 
+.secondaryButton{
+    background-color: rgb(184, 180, 209);
+    color:
+}
+
 .buscar{
     background-color: white;
     border:1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .buscar:focus-within{
@@ -58,4 +74,9 @@ ul{
     outline: none;
     border:0px;
     border-radius: 8px;
+}
+
+.iconoBusqueda:hover{
+    color: blue;
+
 }
