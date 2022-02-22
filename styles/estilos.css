@@ -80,3 +80,22 @@ ul{
     color: blue;
 
 }
+
+.breedCardContainer{
+    display: flex;
+}
+
+.breedCar{
+    margin: 10px;
+}
+
+.contenedorImagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorImagen>img{
+    object-fit: cover;
+    width: 100%;
+}
